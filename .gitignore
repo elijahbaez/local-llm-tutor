@@ -1,0 +1,5 @@
+venv/
+__pycache__/
+*.pdf
+source_pdfs/
+*.jsonl
