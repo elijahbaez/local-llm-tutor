@@ -1,0 +1,3 @@
+Explain how a Carry-Lookahead Adder (CLA) reduces propagation delay compared to a Ripple Carry Adder.
+What is the average and worst-case time complexity of inserting a node into a Binary Search Tree (BST)?
+Describe the role of the Program Counter (PC) and Instruction Register (IR) in the CPU fetch-decode-execute cycle.

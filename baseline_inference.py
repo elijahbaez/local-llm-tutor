@@ -37,7 +37,14 @@ def generate_response(prompt, tokenizer, model):
 if __name__ == "__main__":
     tokenizer, model = load_model()
     
-    test_prompt = "Explain the difference between a RISC and CISC architecture."
-    print(f"\nPrompt: {test_prompt}\n")
-    print("-" * 40)
-    print(generate_response(test_prompt, tokenizer, model))
+    print("\n--- RUNNING BASELINE BENCHMARKS ---")
+    with open("benchmark_prompts.txt", "r") as f:
+        prompts = f.readlines()
+        
+    for i, prompt in enumerate(prompts):
+        prompt = prompt.strip()
+        if prompt:
+            print(f"\n[Test {i+1}] Prompt: {prompt}")
+            print("-" * 40)
+            print(generate_response(prompt, tokenizer, model))
+            print("-" * 40)
