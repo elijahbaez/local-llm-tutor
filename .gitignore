@@ -3,3 +3,5 @@ __pycache__/
 *.pdf
 source_pdfs/
 *.jsonlraw_corpus.txt
+qwen-tutor-lora/
+qwen-tutor-merged/

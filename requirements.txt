@@ -13,6 +13,7 @@ click==8.5.0
 colorama==0.4.6
 datasets==5.0.1
 dill==0.4.1
+fastapi==0.142.2
 filelock==3.32.3
 frozenlist==1.8.0
 fsspec==2026.6.0
@@ -62,6 +63,7 @@ safetensors==0.8.0
 setuptools==78.1.0
 shellingham==1.5.4
 six==1.17.0
+starlette==1.7.0
 sympy==1.14.0
 tokenizers==0.23.2
 torch==2.14.1+cu126
@@ -75,6 +77,7 @@ typing-inspection==0.4.4
 typing_extensions==4.16.0
 tzdata==2026.4
 urllib3==2.8.0
+uvicorn==0.54.0
 wandb==0.30.0
 xxhash==4.0.1
 yarl==1.25.1
