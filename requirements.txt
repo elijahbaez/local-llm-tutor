@@ -66,9 +66,9 @@ six==1.17.0
 starlette==1.7.0
 sympy==1.14.0
 tokenizers==0.23.2
-torch==2.14.1+cu126
-torchaudio==2.11.0+cu126
-torchvision==0.29.1+cu126
+torch==2.14.1+cu130
+torchaudio==2.11.0+cu130
+torchvision==0.29.1+cu130
 tqdm==4.70.1
 transformers==5.18.0
 trl==1.14.1
